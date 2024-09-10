@@ -1,0 +1,66 @@
+notes Chapter 1
+
+python interpreter = is a computer progrram that executes code written in python programming language
+
+interactive interpreter = An interactive inertpreter is a program that allows the user to execute one line of code at a time
+
+code = is a common word for a textual representation of a program ( hence programming is  also called coding) a line is a row of text.
+
+
+expressions = are codes that return a value when evaluated for example,the  code wage hours weeks is an expression that computers a number . the symbol is used for multiplication.
+
+
+the names wage hours weeks and salary are varibales which are anmes refrecnes to values stored by the interpreter.
+
+A statement is a program instuction . A program mostly consists of a series of statements and each statement usually appers on its own line
+
+the print () function displays variables or expression values.
+
+example:
+hours = 15 
+rate =21.00
+pay = hours * rate 
+print("we owe you")
+print(pay)
+
+= sep"" puts a space in between
+= end "" 
+
+Varibales are reserved memeory locations to store values this means that when you create a varibles you reserve some space in memory
+
+text  enclosed in quotes is known as a string print ("hello world")
+
+example of varibale:
+
+pizza = 3
+
+slices  = 8
+
+people =5
+
+print ("slices_per_person:")
+print (pizza * slices / people)
+
+Input= This function will stop execution of a program and allow the user
+to interact with the program to provide realtime interaction
+(or the realtime setting of a variable)
+
+
+
+
+
+
+pizza = int(input("number of pizzas:"))
+slices = int(input("number of slices per pizza: "))
+students= int(input("number of students:"))
+
+slices_per_student = pizza * slices / students
+
+print ('we all get:' , slices_per_student)
+
+
+
+
+
+
+
